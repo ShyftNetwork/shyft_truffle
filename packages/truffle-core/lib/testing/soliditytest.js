@@ -1,10 +1,10 @@
 var TestCase = require("mocha/lib/test.js");
 var Suite = require("mocha/lib/suite.js");
-var Deployer = require("truffle-deployer");
-var find_contracts = require("truffle-contract-sources");
-var compile = require("truffle-compile");
-var artifactor = require("truffle-artifactor");
-var contract = require("truffle-contract");
+var Deployer = require("@shyftnetwork/shyft_truffle-deployer");
+var find_contracts = require("@shyftnetwork/shyft_truffle-contract-sources");
+var compile = require("@shyftnetwork/shyft_truffle-compile");
+var artifactor = require("@shyftnetwork/shyft_truffle-artifactor");
+var contract = require("@shyftnetwork/shyft_truffle-contract");
 var series = require("async").series;
 var path = require("path");
 var SolidityCoder = require("web3/lib/solidity/coder.js");
@@ -129,8 +129,8 @@ var SolidityTest = {
       logger: { log: function() {} }
     }));
 
-    var Assert = runner.config.resolver.require("truffle/Assert.sol");
-    var DeployedAddresses = runner.config.resolver.require("truffle/DeployedAddresses.sol");
+    var Assert = runner.config.resolver.require("@shyftnetwork/shyft_truffle/Assert.sol");
+    var DeployedAddresses = runner.config.resolver.require("@shyftnetwork/shyft_truffle/DeployedAddresses.sol");
     var SafeSend = runner.config.resolver.require("SafeSend.sol");
 
     deployer.deploy([

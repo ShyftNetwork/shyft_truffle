@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 var IPC = require("node-ipc").IPC;
-var TestRPC = require("ganache-cli");
+var TestRPC = require("@shyftnetwork/shyft_ganache-cli");
 var path = require("path");
 var debug = require("debug");
 

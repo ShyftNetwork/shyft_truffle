@@ -1,8 +1,8 @@
 var fs = require("fs");
 var path = require("path");
 var OS = require("os");
-var BlockchainUtils = require("truffle-blockchain-utils");
-var Provider = require("truffle-provider");
+var BlockchainUtils = require("@shyftnetwork/shyft_truffle-blockchain-utils");
+var Provider = require("@shyftnetwork/shyft_truffle-provider");
 var async = require("async");
 var Web3 = require('web3');
 

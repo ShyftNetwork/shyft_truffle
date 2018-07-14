@@ -1,6 +1,6 @@
 var assert = require("assert");
 var Web3 = require("web3");
-var Ganache = require("ganache-cli");
+var Ganache = require("@shyftnetwork/shyft_ganache-cli");
 var Provider = require("../index");
 
 describe("Provider", function() {

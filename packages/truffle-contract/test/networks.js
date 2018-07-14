@@ -1,8 +1,8 @@
 var assert = require("chai").assert;
-var Schema = require("truffle-contract-schema");
+var Schema = require("@shyftnetwork/shyft_truffle-contract-schema");
 var temp = require("temp").track();
 var path = require("path");
-var solc = require("solc");
+var solc = require("@shyftnetwork/shyft_solc");
 
 // Clean up after solidity. Only remove solidity's listener,
 // which happens to be the first.
@@ -10,9 +10,9 @@ process.removeListener("uncaughtException", process.listeners("uncaughtException
 
 var fs = require("fs");
 var requireNoCache = require("require-nocache")(module);
-var debug = require("debug")("ganache-core");
-var TestRPC = require("ganache-core");
-var BlockchainUtils = require("truffle-blockchain-utils");
+var debug = require("debug")("@shyftnetwork/shyft_ganache-core");
+var TestRPC = require("@shyftnetwork/shyft_ganache-core");
+var BlockchainUtils = require("@shyftnetwork/shyft_truffle-blockchain-utils");
 var contract = require("../");
 var Web3 = require("web3");
 var times = require("async/times");

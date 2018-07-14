@@ -1,9 +1,9 @@
 var assert = require("chai").assert;
-var Schema = require("truffle-contract-schema");
+var Schema = require("@shyftnetwork/shyft_truffle-contract-schema");
 var contract = require("../");
 var temp = require("temp").track();
 var path = require("path");
-var solc = require("solc");
+var solc = require("@shyftnetwork/shyft_solc");
 var fs = require("fs");
 var requireNoCache = require("require-nocache")(module);
 var util = require('./util');
@@ -21,7 +21,6 @@ describe("Abstractions", function() {
 
     // Compile first
     var result = solc.compile(fs.readFileSync("./test/Example.sol", {encoding: "utf8"}), 1);
-
     // Clean up after solidity. Only remove solidity's listener,
     // which happens to be the first.
     process.removeListener("uncaughtException", process.listeners("uncaughtException")[0]);

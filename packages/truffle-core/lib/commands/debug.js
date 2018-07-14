@@ -15,13 +15,13 @@ var command = {
     var util = require("util");
     var _ = require("lodash");
 
-    var compile = require("truffle-compile");
-    var Config = require("truffle-config");
-    var Debugger = require("truffle-debugger");
-    var DebugUtils = require("truffle-debug-utils");
+    var compile = require("@shyftnetwork/shyft_truffle-compile");
+    var Config = require("@shyftnetwork/shyft_truffle-config");
+    var Debugger = require("@shyftnetwork/shyft_truffle-debugger");
+    var DebugUtils = require("@shyftnetwork/shyft_truffle-debug-utils");
     var Environment = require("../environment");
     var ReplManager = require("../repl");
-    var selectors = require("truffle-debugger").selectors;
+    var selectors = require("@shyftnetwork/shyft_truffle-debugger").selectors;
 
     // Debugger Session properties
     var ast = selectors.ast;

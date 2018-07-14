@@ -8,8 +8,8 @@ var Graph = require("graphlib").Graph;
 var isAcyclic = require("graphlib/lib/alg").isAcyclic;
 var Parser = require("./parser");
 var CompileError = require("./compileerror");
-var expect = require("truffle-expect");
-var find_contracts = require("truffle-contract-sources");
+var expect = require("@shyftnetwork/shyft_truffle-expect");
+var find_contracts = require("@shyftnetwork/shyft_truffle-contract-sources");
 var debug = require("debug")("compile:profiler");
 
 module.exports = {

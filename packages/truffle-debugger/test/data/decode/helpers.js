@@ -1,7 +1,7 @@
 import debugModule from "debug";
 const debug = debugModule("test:data:decode");
 
-import Ganache from "ganache-cli";
+import Ganache from "@shyftnetwork/shyft_ganache-cli";
 import Web3 from "web3";
 import { assert } from "chai";
 

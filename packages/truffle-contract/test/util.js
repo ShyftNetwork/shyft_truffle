@@ -1,5 +1,5 @@
-var debug = require("debug")("ganache-core");
-var ganache = require("ganache-core");
+var debug = require("debug")("@shyftnetwork/shyft_ganache-core");
+var ganache = require("@shyftnetwork/shyft_ganache-core");
 var Web3 = require("web3");
 
 var log = {

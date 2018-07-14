@@ -1,25 +1,27 @@
 {
-  "name": "truffle-solidity-utils",
+  "name": "@shyftnetwork/shyft_truffle-solidity-utils",
   "version": "1.1.2",
   "description": "Utilities for Solidity contracts",
   "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trufflesuite/truffle-solidity-utils.git"
+    "url": "git+https://github.com/shyftnetwork/shyft_truffle-solidity-utils.git"
   },
   "keywords": [
     "ethereum",
+    "shyftnetwork",
     "truffle",
     "solidity",
     "contracts"
   ],
-  "author": "Tim Coulter <tim.coulter@consensys.net>",
+  "author": "shyftnetwork",
+  "contributors": ["Tim Coulter <tim.coulter@consensys.net>"],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/trufflesuite/truffle-solidity-utils/issues"
+    "url": "https://github.com/shyftnetwork/shyft_truffle-solidity-utils/issues"
   },
-  "homepage": "https://github.com/trufflesuite/truffle-solidity-utils#readme",
+  "homepage": "https://github.com/shyftnetwork/shyft_truffle-solidity-utils#readme",
   "publishConfig": {
     "access": "public"
   }

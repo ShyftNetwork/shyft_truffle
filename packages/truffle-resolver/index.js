@@ -2,9 +2,9 @@ var EPMSource = require("./epm");
 var NPMSource = require("./npm");
 var FSSource = require("./fs");
 var whilst = require("async/whilst");
-var contract = require("truffle-contract");
-var expect = require("truffle-expect");
-var provision = require("truffle-provisioner");
+var contract = require("@shyftnetwork/shyft_truffle-contract");
+var expect = require("@shyftnetwork/shyft_truffle-expect");
+var provision = require("@shyftnetwork/shyft_truffle-provisioner");
 
 function Resolver(options) {
   expect.options(options, [

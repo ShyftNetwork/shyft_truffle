@@ -1,13 +1,13 @@
 var assert = require("chai").assert;
 var Artifactor = require("../");
-var contract = require("truffle-contract");
-var Schema = require("truffle-contract-schema");
+var contract = require("@shyftnetwork/shyft_truffle-contract");
+var Schema = require("@shyftnetwork/shyft_truffle-contract-schema");
 var temp = require("temp").track();
 var path = require("path");
-var solc = require("solc");
+var solc = require("@shyftnetwork/shyft_solc");
 var fs = require("fs");
 var requireNoCache = require("require-nocache")(module);
-var TestRPC = require("ganache-cli");
+var TestRPC = require("@shyftnetwork/shyft_ganache-cli");
 var Web3 = require("web3");
 
 describe("artifactor + require", function() {

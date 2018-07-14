@@ -1,7 +1,7 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
 (function (global){
 var ethJSABI = require("ethjs-abi");
-var BlockchainUtils = require("truffle-blockchain-utils");
+var BlockchainUtils = require("@shyftnetwork/shyft_truffle-blockchain-utils");
 var Web3 = require("web3");
 var StatusError = require("./statuserror.js")
 
@@ -963,7 +963,7 @@ var contract = (function(module) {
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 },{"./statuserror.js":79,"ethjs-abi":51,"truffle-blockchain-utils":66,"web3":45}],2:[function(require,module,exports){
-var Schema = require("truffle-contract-schema");
+var Schema = require("@shyftnetwork/shyft_truffle-contract-schema");
 var Contract = require("./contract.js");
 
 var contract = function(options) {
@@ -17756,7 +17756,7 @@ function hasOwnProperty(obj, prop) {
 
 }).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 },{"./support/isBuffer":77,"_process":60,"inherits":76}],79:[function(require,module,exports){
-var TruffleError = require("truffle-error");
+var TruffleError = require("@shyftnetwork/shyft_truffle-error");
 var inherits = require("util").inherits;
 var web3 = require("web3");
 

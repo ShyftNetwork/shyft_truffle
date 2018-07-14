@@ -1,4 +1,4 @@
-var Schema = require("truffle-contract-schema");
+var Schema = require("@shyftnetwork/shyft_truffle-contract-schema");
 var Contract = require("./contract.js");
 
 var contract = function(options) {

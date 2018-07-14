@@ -4,12 +4,12 @@ var command = {
   builder: {},
   run: function (options, done) {
     var Build = require("../build");
-    var Config = require("truffle-config");
+    var Config = require("@shyftnetwork/shyft_truffle-config");
     var chokidar = require("chokidar");
     var path = require("path");
     var colors = require("colors");
-    var Contracts = require("truffle-workflow-compile");
-    var TruffleError = require("truffle-error");
+    var Contracts = require("@shyftnetwork/shyft_truffle-workflow-compile");
+    var TruffleError = require("@shyftnetwork/shyft_truffle-error");
 
     var config = Config.detect(options);
 

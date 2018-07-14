@@ -3,7 +3,7 @@
 This package saves contract artifacts into into Javascript files that can be `require`'d. i.e.,
 
 ```javascript
-var artifactor = require("truffle-artifactor");
+var artifactor = require("@shyftnetwork/shyft_truffle-artifactor");
 artifactor.save({/*...*/}, "./MyContract.sol.js") // => a promise
 
 // Later...
@@ -46,7 +46,7 @@ $ npm install truffle-artifactor
 Here, we'll generate a `.sol.js` files given a JSON object like [truffle-schema](https://github.com/trufflesuite/truffle-schema). This will give us a file which we can later `require` into other projects and contexts.
 
 ```javascript
-var artifactor = require("truffle-artifactor");
+var artifactor = require("@shyftnetwork/shyft_truffle-artifactor");
 
 // See truffle-schema for more info: https://github.com/trufflesuite/truffle-schema
 var contract_data = {

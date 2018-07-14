@@ -10,7 +10,7 @@ $ npm install truffle-expect
 ### Usage
 
 ```javascript
-var expect = require("truffle-expect");
+var expect = require("@shyftnetwork/shyft_truffle-expect");
 
 // The object you're testing
 var options = {

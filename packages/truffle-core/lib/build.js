@@ -2,13 +2,13 @@ var async = require("async");
 var mkdirp = require("mkdirp");
 var del = require("del");
 var fs = require("fs");
-var Contracts = require("truffle-workflow-compile");
+var Contracts = require("@shyftnetwork/shyft_truffle-workflow-compile");
 var BuildError = require("./errors/builderror");
 var child_process = require("child_process");
 var spawnargs = require("spawn-args");
 var _ = require("lodash");
-var expect = require("truffle-expect");
-var contract = require("truffle-contract");
+var expect = require("@shyftnetwork/shyft_truffle-expect");
+var contract = require("@shyftnetwork/shyft_truffle-contract");
 
 function CommandBuilder(command) {
   this.command = command;

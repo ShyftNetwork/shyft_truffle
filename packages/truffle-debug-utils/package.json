@@ -1,5 +1,5 @@
 {
-  "name": "truffle-debug-utils",
+  "name": "@shyftnetwork/shyft_truffle-debug-utils",
   "version": "1.0.6",
   "description": "Integration utils for truffle/truffle-debugger",
   "dependencies": {
@@ -11,14 +11,15 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trufflesuite/truffle-debug-utils.git"
+    "url": "git+https://github.com/shyftnetwork/shyft_truffle-debug-utils.git"
   },
-  "author": "Truffle Suite <inquiry@trufflesuite.com>",
+  "author": "shyftnetwork",
+  "contributors": ["Truffle Suite <inquiry@trufflesuite.com>"],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/trufflesuite/truffle-debug-utils/issues"
+    "url": "https://github.com/shyftnetwork/shyft_truffle-debug-utils/issues"
   },
-  "homepage": "https://github.com/trufflesuite/truffle-debug-utils#readme",
+  "homepage": "https://github.com/shyftnetwork/shyft_truffle-debug-utils#readme",
   "publishConfig": {
     "access": "public"
   }

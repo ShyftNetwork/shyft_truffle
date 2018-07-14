@@ -1,6 +1,6 @@
 {
-  "name": "truffle-provider",
-  "version": "0.0.6",
+  "name": "@shyftnetwork/shyft_truffle-provider",
+  "version": "0.0.7",
   "description": "Beefed up provider module for Truffle",
   "main": "index.js",
   "scripts": {
@@ -8,26 +8,30 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trufflesuite/truffle-provider.git"
+    "url": "git+https://github.com/shyftnetwork/shyft_truffle-provider.git"
   },
   "keywords": [
     "ethereum",
+    "shyftnetwork",
     "truffle",
     "provider",
     "http"
   ],
-  "author": "Tim Coulter <tim.coulter@consensys.net>",
+  "author": "shyftnetwork",
+  "contributors": [
+    "Tim Coulter <tim.coulter@consensys.net>"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/trufflesuite/truffle-provider/issues"
+    "url": "https://github.com/shyftnetwork/shyft_truffle-provider/issues"
   },
-  "homepage": "https://github.com/trufflesuite/truffle-provider#readme",
+  "homepage": "https://github.com/shyftnetwork/shyft_truffle-provider#readme",
   "dependencies": {
-    "truffle-error": "^0.0.3",
+    "@shyftnetwork/shyft_truffle-error": "^0.0.3",
     "web3": "0.20.6"
   },
   "devDependencies": {
-    "ganache-cli": "6.1.0-beta.4",
+    "@shyftnetwork/shyft_ganache-cli": "^6.1.2",
     "mocha": "5.2.0"
   },
   "publishConfig": {

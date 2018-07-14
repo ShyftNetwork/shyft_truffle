@@ -3,11 +3,11 @@ var command = {
   description: 'Run a console with contract abstractions and commands available',
   builder: {},
   run: function (options, done) {
-    var Config = require("truffle-config");
+    var Config = require("@shyftnetwork/shyft_truffle-config");
     var Console = require("../console");
     var Environment = require("../environment");
     var Develop = require("./develop");
-    var TruffleError = require("truffle-error");
+    var TruffleError = require("@shyftnetwork/shyft_truffle-error");
 
     var config = Config.detect(options);
 

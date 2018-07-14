@@ -1,4 +1,4 @@
-var expect = require("truffle-expect");
+var expect = require("@shyftnetwork/shyft_truffle-expect");
 var DeferredChain = require("./src/deferredchain");
 var deploy = require("./src/actions/deploy");
 var deployMany = require("./src/actions/deploymany");

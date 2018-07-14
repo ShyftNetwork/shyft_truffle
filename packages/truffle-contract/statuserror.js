@@ -1,4 +1,4 @@
-var TruffleError = require("truffle-error");
+var TruffleError = require("@shyftnetwork/shyft_truffle-error");
 var inherits = require("util").inherits;
 var web3 = require("web3");
 

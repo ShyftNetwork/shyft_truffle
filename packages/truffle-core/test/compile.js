@@ -1,8 +1,8 @@
 var assert = require("chai").assert;
-var Box = require("truffle-box");
-var Contracts = require("truffle-workflow-compile");
-var Artifactor = require("truffle-artifactor");
-var Resolver = require("truffle-resolver");
+var Box = require("@shyftnetwork/shyft_truffle-box");
+var Contracts = require("@shyftnetwork/shyft_truffle-workflow-compile");
+var Artifactor = require("@shyftnetwork/shyft_truffle-artifactor");
+var Resolver = require("@shyftnetwork/shyft_truffle-resolver");
 var path = require("path");
 var fs = require("fs");
 

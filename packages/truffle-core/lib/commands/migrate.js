@@ -23,11 +23,11 @@ var command = {
   },
   run: function (options, done) {
     var OS = require("os");
-    var Config = require("truffle-config");
-    var Contracts = require("truffle-workflow-compile");
-    var Resolver = require("truffle-resolver");
-    var Artifactor = require("truffle-artifactor");
-    var Migrate = require("truffle-migrate");
+    var Config = require("@shyftnetwork/shyft_truffle-config");
+    var Contracts = require("@shyftnetwork/shyft_truffle-workflow-compile");
+    var Resolver = require("@shyftnetwork/shyft_truffle-resolver");
+    var Artifactor = require("@shyftnetwork/shyft_truffle-artifactor");
+    var Migrate = require("@shyftnetwork/shyft_truffle-migrate");
     var Environment = require("../environment");
     var temp = require("temp");
     var copy = require("../copy");

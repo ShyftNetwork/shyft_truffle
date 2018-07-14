@@ -1,24 +1,26 @@
 {
-  "name": "truffle-expect",
+  "name": "@shyftnetwork/shyft_truffle-expect",
   "version": "0.0.4",
   "description": "Simple module for ensuring specific options are passed to a function",
   "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trufflesuite/truffle-expect.git"
+    "url": "git+https://github.com/shyftnetwork/shyft_truffle-expect.git"
   },
   "keywords": [
     "truffle",
     "ethereum",
+    "shyftnetwork",
     "expect"
   ],
-  "author": "Tim Coulter <tim.coulter@consensys.net>",
+  "author": "shyftnetwork",
+  "contributors": ["Tim Coulter <tim.coulter@consensys.net>"],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/trufflesuite/truffle-expect/issues"
+    "url": "https://github.com/shyftnetwork/shyft_truffle-expect/issues"
   },
-  "homepage": "https://github.com/trufflesuite/truffle-expect#readme",
+  "homepage": "https://github.com/shyftnetwork/shyft_truffle-expect#readme",
   "publishConfig": {
     "access": "public"
   }

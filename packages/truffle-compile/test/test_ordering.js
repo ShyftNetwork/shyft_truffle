@@ -1,6 +1,6 @@
 var fs = require("fs");
 var path = require("path");
-var solc = require("solc");
+var solc = require("@shyftnetwork/shyft_solc");
 var Compile = require("../index");
 var assert = require("assert");
 

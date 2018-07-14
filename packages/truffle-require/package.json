@@ -1,5 +1,5 @@
 {
-  "name": "truffle-require",
+  "name": "@shyftnetwork/shyft_truffle-require",
   "version": "1.0.7",
   "description": "Require and execute a Javascript module within a Truffle context",
   "main": "require.js",
@@ -8,27 +8,31 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trufflesuite/truffle-exec.git"
+    "url": "git+https://github.com/shyftnetwork/shyft_truffle-exec.git"
   },
   "keywords": [
     "ethereum",
+    "shyftnetwork",
     "truffle",
     "exec",
     "require"
   ],
-  "author": "Tim Coulter <tim.coulter@consensys.net>",
+  "author": "shyftnetwork",
+  "contributors": [
+    "Tim Coulter <tim.coulter@consensys.net>"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/trufflesuite/truffle-exec/issues"
+    "url": "https://github.com/shyftnetwork/shyft_truffle-exec/issues"
   },
-  "homepage": "https://github.com/trufflesuite/truffle-exec#readme",
+  "homepage": "https://github.com/shyftnetwork/shyft_truffle-exec#readme",
   "devDependencies": {
     "mocha": "5.2.0"
   },
   "dependencies": {
     "original-require": "1.0.1",
-    "truffle-config": "^1.0.6",
-    "truffle-expect": "^0.0.4",
+    "@shyftnetwork/shyft_truffle-config": "^1.0.6",
+    "@shyftnetwork/shyft_truffle-expect": "^0.0.4",
     "web3": "0.20.6"
   },
   "publishConfig": {

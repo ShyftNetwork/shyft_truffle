@@ -63,7 +63,7 @@ You could also create a module or object that implements the builder interface (
 Here's an example using Truffle's default builder:
 
 ```javascript
-var DefaultBuilder = require("truffle-default-builder");
+var DefaultBuilder = require("@shyftnetwork/shyft_truffle-default-builder");
 module.exports = {
   build: new DefaultBuilder(...) // specify the default builder configuration here.
 }

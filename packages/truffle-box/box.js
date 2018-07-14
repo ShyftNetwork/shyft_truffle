@@ -2,7 +2,7 @@ var utils = require("./lib/utils");
 var tmp = require("tmp");
 var path = require("path");
 
-var Config = require("truffle-config");
+var Config = require("@shyftnetwork/shyft_truffle-config");
 
 var Box = {
   unbox: function(url, destination, options) {

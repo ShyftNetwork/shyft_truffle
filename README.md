@@ -6,6 +6,9 @@
 [![Build Status](https://travis-ci.org/trufflesuite/truffle.svg?branch=develop)](https://travis-ci.org/trufflesuite/truffle)
 
 -----------------------
+@shyftnetwork devs: See publish-notes.txt
+
+-----------------------
 
 
 Truffle is a development environment, testing framework and asset pipeline for Ethereum, aiming to make life as an Ethereum developer easier. With Truffle, you get:

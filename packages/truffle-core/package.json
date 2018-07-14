@@ -1,6 +1,6 @@
 {
-  "name": "truffle-core",
-  "namespace": "consensys",
+  "name": "@shyftnetwork/shyft_truffle-core",
+  "namespace": "shyftnetwork",
   "version": "4.1.13",
   "description": "Core code for Truffle command line tool",
   "dependencies": {
@@ -16,7 +16,7 @@
     "ethpm-registry": "0.0.10",
     "finalhandler": "^0.4.0",
     "fs-extra": "6.0.1",
-    "ganache-cli": "6.1.0-beta.4",
+    "@shyftnetwork/shyft_ganache-cli": "^6.1.2",
     "lodash": "4.17.10",
     "mkdirp": "^0.5.1",
     "mocha": "5.2.0",
@@ -29,25 +29,25 @@
     "source-map-support": "^0.5.3",
     "spawn-args": "^0.1.0",
     "temp": "^0.8.3",
-    "truffle-artifactor": "^3.0.7",
-    "truffle-box": "^1.0.7",
-    "truffle-compile": "^3.0.13",
-    "truffle-config": "^1.0.6",
-    "truffle-contract": "^3.0.6",
-    "truffle-contract-sources": "^0.0.2",
-    "truffle-debug-utils": "^1.0.6",
-    "truffle-debugger": "^4.0.2",
-    "truffle-deployer": "^2.0.7",
-    "truffle-error": "^0.0.3",
-    "truffle-expect": "^0.0.4",
+    "@shyftnetwork/shyft_truffle-artifactor": "^3.0.7",
+    "@shyftnetwork/shyft_truffle-box": "^1.0.7",
+    "@shyftnetwork/shyft_truffle-compile": "^3.0.13",
+    "@shyftnetwork/shyft_truffle-config": "^1.0.6",
+    "@shyftnetwork/shyft_truffle-contract": "^3.0.6",
+    "@shyftnetwork/shyft_truffle-contract-sources": "^0.0.2",
+    "@shyftnetwork/shyft_truffle-debug-utils": "^1.0.6",
+    "@shyftnetwork/shyft_truffle-debugger": "^4.0.2",
+    "@shyftnetwork/shyft_truffle-deployer": "^2.0.7",
+    "@shyftnetwork/shyft_truffle-error": "^0.0.3",
+    "@shyftnetwork/shyft_truffle-expect": "^0.0.4",
     "truffle-init": "^1.0.7",
-    "truffle-migrate": "^2.0.8",
-    "truffle-provider": "^0.0.6",
-    "truffle-provisioner": "^0.1.1",
-    "truffle-require": "^1.0.7",
-    "truffle-resolver": "^4.0.4",
-    "truffle-solidity-utils": "^1.1.2",
-    "truffle-workflow-compile": "^1.0.6",
+    "@shyftnetwork/shyft_truffle-migrate": "^2.0.8",
+    "@shyftnetwork/shyft_truffle-provider": "^0.0.6",
+    "@shyftnetwork/shyft_truffle-provisioner": "^0.1.1",
+    "@shyftnetwork/shyft_truffle-require": "^1.0.7",
+    "@shyftnetwork/shyft_truffle-resolver": "^4.0.4",
+    "@shyftnetwork/shyft_truffle-solidity-utils": "^1.1.2",
+    "@shyftnetwork/shyft_truffle-workflow-compile": "^1.0.6",
     "web3": "0.20.6",
     "yargs": "^8.0.2"
   },
@@ -60,13 +60,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ConsenSys/truffle.git"
+    "url": "https://github.com/shyftnetwork/shyft_truffle.git"
   },
-  "homepage": "https://github.com/ConsenSys/truffle",
+  "homepage": "https://github.com/shyftnetwork/shyft_truffle",
   "bugs": {
-    "url": "https://github.com/ConsenSys/truffle/issues"
+    "url": "https://github.com/shyftnetwork/shyft_truffle/issues"
   },
-  "author": "consensys.net",
+  "author": "shyftnetwork",
   "authors": [
     {
       "name": "Tim Coulter",
@@ -76,7 +76,7 @@
   ],
   "devDependencies": {
     "ipfsd-ctl": "^0.21.0",
-    "truffle-blockchain-utils": "^0.0.5"
+    "@shyftnetwork/shyft_truffle-blockchain-utils": "^0.0.5"
   },
   "publishConfig": {
     "access": "public"

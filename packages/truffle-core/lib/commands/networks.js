@@ -9,7 +9,7 @@ var command = {
     }
   },
   run: function (options, done) {
-    var Config = require("truffle-config");
+    var Config = require("@shyftnetwork/shyft_truffle-config");
     var Networks = require("../networks");
 
     var config = Config.detect(options);

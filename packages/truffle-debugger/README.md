@@ -44,7 +44,7 @@ Optionally (and recommended), you can also provide a `files` argument:
 1. Start the debugger session by constructing a Debugger instance with `.forTx()` and then `.connect()` to it:
 
 ```javascript
-import Debugger from "truffle-debugger";
+import Debugger from "@shyftnetwork/shyft_truffle-debugger";
 
 let bugger = await Debugger
   .forTx(txHash, { contracts, files, provider });

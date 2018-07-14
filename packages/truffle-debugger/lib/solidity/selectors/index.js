@@ -2,8 +2,8 @@ import debugModule from "debug";
 const debug = debugModule("debugger:solidity:selectors");
 
 import { createSelectorTree, createLeaf } from "reselect-tree";
-import SolidityUtils from "truffle-solidity-utils";
-import CodeUtils from "truffle-code-utils";
+import SolidityUtils from "@shyftnetwork/shyft_truffle-solidity-utils";
+import CodeUtils from "@shyftnetwork/shyft_truffle-code-utils";
 
 import evm from "lib/evm/selectors";
 

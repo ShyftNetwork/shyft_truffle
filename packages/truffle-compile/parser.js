@@ -1,5 +1,5 @@
 var CompileError = require("./compileerror");
-var solc = require("solc");
+var solc = require("@shyftnetwork/shyft_solc");
 var fs = require("fs");
 var path = require("path");
 

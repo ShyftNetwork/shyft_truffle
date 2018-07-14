@@ -1,25 +1,27 @@
 {
-  "name": "truffle-provisioner",
+  "name": "@shyftnetwork/shyft_truffle-provisioner",
   "version": "0.1.1",
   "description": "Provision contract objects for use from multiple sources",
   "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trufflesuite/truffle-provisioner.git"
+    "url": "git+https://github.com/shyftnetwork/shyft_truffle-provisioner.git"
   },
   "keywords": [
     "ethereum",
+    "shyftnetwork",
     "truffle",
     "contracts",
     "provision"
   ],
-  "author": "Tim Coulter <tim.coulter@consensys.net>",
+  "author": "shyftnetwork",
+  "contributors": ["Tim Coulter <tim.coulter@consensys.net>"],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/trufflesuite/truffle-provisioner/issues"
+    "url": "https://github.com/shyftnetwork/shyft_truffle-provisioner/issues"
   },
-  "homepage": "https://github.com/trufflesuite/truffle-provisioner#readme",
+  "homepage": "https://github.com/shyftnetwork/shyft_truffle-provisioner#readme",
   "publishConfig": {
     "access": "public"
   }

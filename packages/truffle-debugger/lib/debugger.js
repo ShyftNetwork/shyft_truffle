@@ -1,5 +1,5 @@
 import debugModule from 'debug';
-import expect from "truffle-expect";
+import expect from "@shyftnetwork/shyft_truffle-expect";
 
 import Session from "./session";
 

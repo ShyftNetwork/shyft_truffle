@@ -6,9 +6,9 @@ var fs = require("fs");
 var async = require("async");
 var Profiler = require("./profiler");
 var CompileError = require("./compileerror");
-var expect = require("truffle-expect");
-var find_contracts = require("truffle-contract-sources");
-var Config = require("truffle-config");
+var expect = require("@shyftnetwork/shyft_truffle-expect");
+var find_contracts = require("@shyftnetwork/shyft_truffle-contract-sources");
+var Config = require("@shyftnetwork/shyft_truffle-config");
 var debug = require("debug")("compile");
 
 // Most basic of the compile commands. Takes a hash of sources, where
@@ -37,7 +37,7 @@ var compile = function(sources, options, callback) {
   ]);
 
   // Load solc module only when compilation is actually required.
-  var solc = require("solc");
+  var solc = require("@shyftnetwork/shyft_solc");
   // Clean up after solc.
   var listeners = process.listeners("uncaughtException");
   var solc_listener = listeners[listeners.length - 1];

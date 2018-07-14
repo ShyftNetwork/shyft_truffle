@@ -1,8 +1,8 @@
 var assert = require("chai").assert;
-var Box = require("truffle-box");
-var Profiler = require("truffle-compile/profiler.js");
-var Resolver = require("truffle-resolver");
-var Artifactor = require("truffle-artifactor");
+var Box = require("@shyftnetwork/shyft_truffle-box");
+var Profiler = require("@shyftnetwork/shyft_truffle-compile/profiler.js");
+var Resolver = require("@shyftnetwork/shyft_truffle-resolver");
+var Artifactor = require("@shyftnetwork/shyft_truffle-artifactor");
 
 // TOOD: Move this to truffle-compile!
 

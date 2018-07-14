@@ -1,8 +1,8 @@
 var Deployed = require("./deployed");
 var path = require("path");
 var fs = require("fs");
-var contract = require("truffle-contract");
-var find_contracts = require("truffle-contract-sources");
+var contract = require("@shyftnetwork/shyft_truffle-contract");
+var find_contracts = require("@shyftnetwork/shyft_truffle-contract-sources");
 
 function TestSource(config) {
   this.config = config;

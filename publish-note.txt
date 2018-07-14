@@ -1,0 +1,4 @@
+- truffle-init in the truffle package is still using the trufflesuite npm package
+    - truffle-box is still using truffle-init and is configured for trufflesuite repos
+- truffle-code-utils has a list of opcodes we will need to update
+- unable to locate vm in `var vm = require('vm');` (truffle-require/require.js)
