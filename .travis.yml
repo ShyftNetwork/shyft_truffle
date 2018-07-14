@@ -1,35 +1,33 @@
 dist: trusty
 sudo: required
 language: node_js
-
 services:
-  - docker
-
+- docker
 before_install:
-  - docker pull ethereum/client-go:latest
-
+- docker pull ethereum/client-go:latest
 matrix:
   fast_finish: true
   include:
-    - node_js: 8
-      env: GETH=true
-    - node_js: 8
-      env: PACKAGES=true
-    - node_js: 8
-      env: INTEGRATION=true
-    - node_js: 6
-      env: INTEGRATION=true
+  - node_js: 8
+    env: GETH=true
+  - node_js: 8
+    env: PACKAGES=true
+  - node_js: 8
+    env: INTEGRATION=true
+  - node_js: 6
+    env: INTEGRATION=true
   allow_failures:
-    - node_js: 8
-      env: GETH=true
-    - node_js: 6
-      env: INTEGRATION=true
-
-
+  - node_js: 8
+    env: GETH=true
+  - node_js: 6
+    env: INTEGRATION=true
 install:
-  - npm install -g lerna
-  - npm install -g yarn
-  - npm run bootstrap
-
+- npm install -g lerna
+- npm install -g yarn
+- npm run bootstrap
 script:
-  - npm run ci
+- npm run ci
+
+notifications:
+  slack:
+    secure: 0OIg7TRdjZ3zEd5ZnzHrzDuTbkIRdXKYpo3FTCGn4uZ8j73sqsXMzjGS0h3aHj9sUGunG/sUp/1cPDkbSr2sXr3Io0gr/Oq07t07HY2u02ioDbFjyWwS9VD9v2FUO9nUvxQTBFjhOSbHlcrJG/ojcGQet0jpMPW5JXVIOzJLW62MnLLdZhMyaXyOCD/Jp5AMmE9Q7C8bSIIYJmWmqWoU2wRquMWSn5HbDG15Zv+7QRgwqQUHh5t0/1yTPfRGvRoOAyk33GEAa4K0rPY51oa/1hOxWlOF/QgoVpXieA3AkiLOg+hcQM7AFnhXkp5x44bU7dI5rP5qLnWmN8LvYShcQtH/5IStZVMeKJCJR2Ugp9xMvF+kftl7Rn/GGcUrd0yimPX3/JMR0B/gW5t/9fFNSmvOWumsR60XZpa6/iM/9OwW6Lzw/CyRsBSGAxj6QIyCgJpxzxMVxArsb+5PufDKB0Oxve/mAg9ff+d8O6nG8jxmzBYYP0lJz3wrErueO0IJGfbEle/8Rr7/2bnCjZTNKdnC8GqsXaoaGONzVpebuWjcqNzg1LK2W+/giEG44R+6LV4278Eb2JZMleBHLSGmsSIA12Ym2UJ947c/AYdThXes5zzB8s1QjGKG3L2We7YOcMBz9hnzUu7GhpIVIIO1G+MHa/96yBStobguEU6TQfY=
