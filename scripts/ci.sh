@@ -20,15 +20,15 @@ run_geth() {
 
 if [ "$INTEGRATION" = true ]; then
 
-  lerna run --scope truffle test --stream
+  lerna run --scope @shyftnetwork/shyft_truffle test --stream
 
 elif [ "$GETH" = true ]; then
 
   run_geth
-  lerna run --scope truffle test --stream
+  lerna run --scope @shyftnetwork/shyft_truffle test --stream
 
 else
 
-  lerna run --scope truffle-* test --stream
+  lerna run --scope @shyftnetwork/shyft_truffle-* test --stream
 
 fi
