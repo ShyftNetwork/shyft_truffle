@@ -5,11 +5,11 @@ var path = require("path");
 var requireNoCache = require("require-nocache")(module);
 var contract = require("../");
 var Web3 = require("web3");
-var debug = require("debug")("ganache-core");
-var TestRPC = require("ganache-core");
+var debug = require("debug")("@shyftnetwork/shyft_ganache-core");
+var TestRPC = require("@shyftnetwork/shyft_ganache-core");
 var fs = require("fs");
-var solc = require("solc");
-var Schema = require("truffle-contract-schema");
+var solc = require("@shyftnetwork/shyft_solc");
+var Schema = require("@shyftnetwork/shyft_truffle-contract-schema");
 // Clean up after solidity. Only remove solidity's listener,
 // which happens to be the first.
 process.removeListener("uncaughtException", process.listeners("uncaughtException")[0] || function() {});

@@ -1,5 +1,5 @@
 var inherits = require("util").inherits;
-var TruffleError = require("truffle-error");
+var TruffleError = require("@shyftnetwork/shyft_truffle-error");
 
 // HACK: string comparison seems to be only way to identify being unable to
 // connect to RPC node.

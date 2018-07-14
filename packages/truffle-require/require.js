@@ -3,8 +3,8 @@ var path = require("path");
 var Module = require('module');
 var vm = require('vm');
 var originalrequire = require("original-require");
-var expect = require("truffle-expect");
-var Config = require("truffle-config");
+var expect = require("@shyftnetwork/shyft_truffle-expect");
+var Config = require("@shyftnetwork/shyft_truffle-config");
 var Web3 = require("web3");
 
 // options.file: path to file to execute. Must be a module that exports a function.

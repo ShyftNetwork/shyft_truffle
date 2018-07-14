@@ -1,12 +1,12 @@
 var assert = require("chai").assert;
-var Box = require("truffle-box");
+var Box = require("@shyftnetwork/shyft_truffle-box");
 var fs = require("fs");
 var path = require('path');
 var mkdirp = require("mkdirp");
 var async = require("async");
-var Resolver = require("truffle-resolver");
-var Artifactor = require("truffle-artifactor");
-var Contracts = require("truffle-workflow-compile");
+var Resolver = require("@shyftnetwork/shyft_truffle-resolver");
+var Artifactor = require("@shyftnetwork/shyft_truffle-artifactor");
+var Contracts = require("@shyftnetwork/shyft_truffle-workflow-compile");
 
 describe('NPM integration', function() {
   var config;

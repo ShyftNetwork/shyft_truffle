@@ -13,8 +13,8 @@ var outputFilename = 'cli.bundled.js';
 
 module.exports = {
   entry: {
-    cli: path.join(__dirname, "../..", "node_modules", "truffle-core", "cli.js"),
-    chain: path.join(__dirname, "../..", "node_modules", "truffle-core", "chain.js")
+    cli: path.join(__dirname, "../..", "node_modules", "@shyftnetwork", "shyft_truffle-core", "cli.js"),
+    chain: path.join(__dirname, "../..", "node_modules", "@shyftnetwork", "shyft_truffle-core", "chain.js")
   },
   target: 'node',
   node: {
@@ -70,10 +70,10 @@ module.exports = {
 
     // `truffle test`
     new CopyWebpackPlugin([
-      { from: path.join(__dirname, "../..", "node_modules", "truffle-core", "lib", "testing", "Assert.sol") },
-      { from: path.join(__dirname, "../..", "node_modules", "truffle-core", "lib", "testing", "SafeSend.sol") },
+      { from: path.join(__dirname, "../..", "node_modules", "@shyftnetwork", "shyft_truffle-core", "lib", "testing", "Assert.sol") },
+      { from: path.join(__dirname, "../..", "node_modules", "@shyftnetwork", "shyft_truffle-core", "lib", "testing", "SafeSend.sol") },
       {
-        from: path.join(__dirname, "../..", "node_modules", "truffle-core", "lib", "templates/"),
+        from: path.join(__dirname, "../..", "node_modules", "@shyftnetwork", "shyft_truffle-core", "lib", "templates/"),
         to: "templates",
         flatten: true
       },

@@ -1,5 +1,5 @@
 var assert = require("assert");
-var solc = require("solc");
+var solc = require("@shyftnetwork/shyft_solc");
 var Schema = require("../");
 var debug = require("debug")("test:solc");
 

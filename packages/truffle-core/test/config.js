@@ -1,12 +1,12 @@
 var assert = require("chai").assert;
 var path = require("path");
 var fs = require("fs");
-var Box = require("truffle-box");
-var Contracts = require("truffle-workflow-compile");
-var TestRPC = require("ganache-cli");
-var provision = require("truffle-provisioner");
-var Resolver = require("truffle-resolver");
-var Artifactor = require("truffle-artifactor");
+var Box = require("@shyftnetwork/shyft_truffle-box");
+var Contracts = require("@shyftnetwork/shyft_truffle-workflow-compile");
+var TestRPC = require("@shyftnetwork/shyft_ganache-cli");
+var provision = require("@shyftnetwork/shyft_truffle-provisioner");
+var Resolver = require("@shyftnetwork/shyft_truffle-resolver");
+var Artifactor = require("@shyftnetwork/shyft_truffle-artifactor");
 
 describe('config', function() {
   var config;

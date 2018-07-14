@@ -1,22 +1,24 @@
 {
-  "name": "truffle-blockchain-utils",
+  "name": "@shyftnetwork/shyft_truffle-blockchain-utils",
   "version": "0.0.5",
   "description": "Utilities for identifying and managing blockchains",
   "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trufflesuite/truffle-blockchain-utils.git"
+    "url": "git+https://github.com/shyftnetwork/shyft_truffle-blockchain-utils.git"
   },
   "keywords": [
     "ethereum",
+    "shyftnetwork",
     "truffle",
     "blockchain"
   ],
-  "author": "Tim Coulter <tim.coulter@consensys.net>",
+  "author": "shyftnetwork",
+  "contributors": ["Tim Coulter <tim.coulter@consensys.net>"],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/trufflesuite/truffle-blockchain-utils/issues"
+    "url": "https://github.com/shyftnetwork/shyft_truffle-blockchain-utils/issues"
   },
-  "homepage": "https://github.com/trufflesuite/truffle-blockchain-utils#readme"
+  "homepage": "https://github.com/shyftnetwork/shyft_truffle-blockchain-utils#readme"
 }

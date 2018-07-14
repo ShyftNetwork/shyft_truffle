@@ -1,5 +1,5 @@
-var Schema = require("truffle-contract-schema");
-var expect = require("truffle-expect");
+var Schema = require("@shyftnetwork/shyft_truffle-contract-schema");
+var expect = require("@shyftnetwork/shyft_truffle-expect");
 var fs = require("fs-extra");
 var path = require("path");
 var async = require("async");

@@ -3,7 +3,7 @@ var command = {
   description: 'Show publishable information about the current project',
   builder: {},
   run: function (options, done) {
-    var Config = require("truffle-config");
+    var Config = require("@shyftnetwork/shyft_truffle-config");
     var Package = require("../package");
 
     var config = Config.detect(options);

@@ -1,11 +1,11 @@
 var assert = require("chai").assert;
 var path = require("path");
 var fs = require("fs");
-var Box = require("truffle-box");
+var Box = require("@shyftnetwork/shyft_truffle-box");
 var Create = require("../lib/create");
 var dir = require("node-dir");
-var Resolver = require("truffle-resolver");
-var Artifactor = require("truffle-artifactor");
+var Resolver = require("@shyftnetwork/shyft_truffle-resolver");
+var Artifactor = require("@shyftnetwork/shyft_truffle-artifactor");
 
 describe('create', function() {
   var config;

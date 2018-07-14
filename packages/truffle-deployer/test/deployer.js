@@ -1,5 +1,5 @@
-var TestRPC = require("ganache-cli");
-var contract = require("truffle-contract");
+var TestRPC = require("@shyftnetwork/shyft_ganache-cli");
+var contract = require("@shyftnetwork/shyft_truffle-contract");
 var Deployer = require("../index");
 var Web3 = require("web3");
 var assert = require("assert");

@@ -1,17 +1,17 @@
 var assert = require("chai").assert;
-var Box = require("truffle-box");
+var Box = require("@shyftnetwork/shyft_truffle-box");
 var fs = require("fs");
 var path = require('path');
 var mkdirp = require("mkdirp");
 var async = require("async");
-var Contracts = require("truffle-workflow-compile");
+var Contracts = require("@shyftnetwork/shyft_truffle-workflow-compile");
 var Package = require("../lib/package.js");
-var Blockchain = require("truffle-blockchain-utils");
+var Blockchain = require("@shyftnetwork/shyft_truffle-blockchain-utils");
 var EthPM = require("ethpm");
 var GithubExamples = require("ethpm/lib/indexes/github-examples");
-var TestRPC = require("ganache-cli");
-var Resolver = require("truffle-resolver");
-var Artifactor = require("truffle-artifactor");
+var TestRPC = require("@shyftnetwork/shyft_ganache-cli");
+var Resolver = require("@shyftnetwork/shyft_truffle-resolver");
+var Artifactor = require("@shyftnetwork/shyft_truffle-artifactor");
 
 describe.skip('EthPM integration', function() {
   var config;

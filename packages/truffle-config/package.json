@@ -1,30 +1,34 @@
 {
-  "name": "truffle-config",
-  "version": "1.0.6",
+  "name": "@shyftnetwork/shyft_truffle-config",
+  "version": "1.0.7",
   "description": "Utility for interacting with truffle.js files",
   "main": "index.js",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trufflesuite/truffle-config.git"
+    "url": "git+https://github.com/shyftnetwork/shyft_truffle-config.git"
   },
   "keywords": [
     "ethereum",
+    "shyftnetwork",
     "truffle",
     "config"
   ],
-  "author": "Tim Coulter <tim.coulter@consensys.net>",
+  "author": "shyftnetwork",
+  "contributors": [
+    "Tim Coulter <tim.coulter@consensys.net>"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/trufflesuite/truffle-config/issues"
+    "url": "https://github.com/shyftnetwork/shyft_truffle-config/issues"
   },
-  "homepage": "https://github.com/trufflesuite/truffle-config#readme",
+  "homepage": "https://github.com/shyftnetwork/shyft_truffle-config#readme",
   "dependencies": {
     "find-up": "^2.1.0",
     "lodash": "4.17.10",
     "original-require": "1.0.1",
-    "truffle-error": "^0.0.3",
-    "truffle-provider": "^0.0.6"
+    "@shyftnetwork/shyft_truffle-error": "^0.0.3",
+    "@shyftnetwork/shyft_truffle-provider": "^0.0.6"
   },
   "publishConfig": {
     "access": "public"

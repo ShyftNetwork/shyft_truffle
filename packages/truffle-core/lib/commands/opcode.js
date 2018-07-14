@@ -8,10 +8,10 @@ var command = {
     }
   },
   run: function (options, done) {
-    var Config = require("truffle-config");
-    var TruffleError = require("truffle-error");
-    var Contracts = require("truffle-workflow-compile");
-    var CodeUtils = require("truffle-code-utils");
+    var Config = require("@shyftnetwork/shyft_truffle-config");
+    var TruffleError = require("@shyftnetwork/shyft_truffle-error");
+    var Contracts = require("@shyftnetwork/shyft_truffle-workflow-compile");
+    var CodeUtils = require("@shyftnetwork/shyft_truffle-code-utils");
 
     if (options._.length == 0) {
       return done(new TruffleError("Please specify a contract name."));

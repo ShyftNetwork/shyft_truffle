@@ -15,10 +15,10 @@ var command = {
     }
   },
   run: function (options, done) {
-    var Config = require("truffle-config");
-    var Contracts = require("truffle-workflow-compile");
+    var Config = require("@shyftnetwork/shyft_truffle-config");
+    var Contracts = require("@shyftnetwork/shyft_truffle-workflow-compile");
     var ConfigurationError = require("../errors/configurationerror");
-    var Require = require("truffle-require");
+    var Require = require("@shyftnetwork/shyft_truffle-require");
     var Environment = require("../environment");
     var path = require("path");
     var OS = require("os");

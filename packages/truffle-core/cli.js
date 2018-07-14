@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 require('source-map-support/register')
 
-var Config = require("truffle-config");
+var Config = require("@shyftnetwork/shyft_truffle-config");
 var Command = require("./lib/command");
 var TaskError = require("./lib/errors/taskerror");
-var TruffleError = require("truffle-error");
+var TruffleError = require("@shyftnetwork/shyft_truffle-error");
 var version = require("./lib/version");
 var OS = require("os");
 

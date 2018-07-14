@@ -1,5 +1,5 @@
 {
-  "name": "truffle-deployer",
+  "name": "@shyftnetwork/shyft_truffle-deployer",
   "version": "2.0.7",
   "description": "Light deployment module for easily deploying Ethereum contracts",
   "main": "index.js",
@@ -8,27 +8,31 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trufflesuite/truffle-deployer.git"
+    "url": "git+https://github.com/shyftnetwork/shyft_truffle-deployer.git"
   },
   "keywords": [
     "ethereum",
+    "shyftnetwork",
     "truffle",
     "solidity",
     "deployment",
     "contracts"
   ],
-  "author": "Tim Coulter <tim.coulter@consensys.net>",
+  "author": "shyftnetwork",
+  "contributors": [
+    "Tim Coulter <tim.coulter@consensys.net>"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/trufflesuite/truffle-deployer/issues"
+    "url": "https://github.com/shyftnetwork/shyft_truffle-deployer/issues"
   },
-  "homepage": "https://github.com/trufflesuite/truffle-deployer#readme",
+  "homepage": "https://github.com/shyftnetwork/shyft_truffle-deployer#readme",
   "dependencies": {
-    "truffle-contract": "^3.0.6",
-    "truffle-expect": "^0.0.4"
+    "@shyftnetwork/shyft_truffle-contract": "^3.0.6",
+    "@shyftnetwork/shyft_truffle-expect": "^0.0.4"
   },
   "devDependencies": {
-    "ganache-cli": "6.1.0-beta.4",
+    "@shyftnetwork/shyft_ganache-cli": "^6.1.2",
     "mocha": "5.2.0",
     "web3": "0.20.6"
   },

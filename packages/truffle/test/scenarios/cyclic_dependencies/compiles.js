@@ -1,11 +1,11 @@
-var Box = require("truffle-box");
+var Box = require("@shyftnetwork/shyft_truffle-box");
 var MemoryLogger = require("../memorylogger");
 var CommandRunner = require("../commandrunner");
-var contract = require("truffle-contract");
+var contract = require("@shyftnetwork/shyft_truffle-contract");
 var fs = require("fs-extra");
 var path = require("path");
 var assert = require("assert");
-var TestRPC = require("ganache-cli");
+var TestRPC = require("@shyftnetwork/shyft_ganache-cli");
 var Reporter = require("../reporter");
 
 describe("Cyclic Dependencies", function() {

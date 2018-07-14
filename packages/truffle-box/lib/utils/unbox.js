@@ -58,7 +58,8 @@ function verifyURL(url) {
 
 function setupTempDirectory() {
   return new Promise(function(accept, reject) {
-    tmp.dir({dir: cwd, unsafeCleanup: true}, function(err, dir, cleanupCallback) {
+    tmp.dir({dir: cwd,
+unsafeCleanup: true}, function(err, dir, cleanupCallback) {
       if (err) return reject(err);
 
       accept(path.join(dir, "box"), cleanupCallback);

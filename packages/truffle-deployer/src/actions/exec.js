@@ -1,4 +1,4 @@
-// var Require = require("truffle-exec");
+// var Require = require("@shyftnetwork/shyft_truffle-exec");
 // var path = require("path");
 //
 // module.exports = function(file, deployer) {

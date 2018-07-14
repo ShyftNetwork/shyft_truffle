@@ -4,14 +4,14 @@ const debug = debugModule("test:helpers");
 import path from "path";
 import fs from "fs-extra";
 import async from "async";
-import Contracts from "truffle-workflow-compile";
-import Debug from "truffle-debug-utils";
-import Artifactor from "truffle-artifactor";
+import Contracts from "@shyftnetwork/shyft_truffle-workflow-compile";
+import Debug from "@shyftnetwork/shyft_truffle-debug-utils";
+import Artifactor from "@shyftnetwork/shyft_truffle-artifactor";
 import Web3 from "web3";
-import Migrate from "truffle-migrate";
-import Box from "truffle-box";
-import Resolver from "truffle-resolver";
-import expect from "truffle-expect";
+import Migrate from "@shyftnetwork/shyft_truffle-migrate";
+import Box from "@shyftnetwork/shyft_truffle-box";
+import Resolver from "@shyftnetwork/shyft_truffle-resolver";
+import expect from "@shyftnetwork/shyft_truffle-expect";
 
 export async function prepareContracts(provider, sources = {}, migrations) {
   let config = await createSandbox();

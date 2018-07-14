@@ -45,7 +45,7 @@ var command = {
     });
   },
   run: function (options, done) {
-    var Config = require("truffle-config");
+    var Config = require("@shyftnetwork/shyft_truffle-config");
     var Develop = require("../develop");
 
     var config = Config.detect(options);

@@ -1,5 +1,5 @@
 {
-  "name": "truffle-code-utils",
+  "name": "@shyftnetwork/shyft_truffle-code-utils",
   "version": "1.1.1",
   "description": "",
   "main": "index.js",

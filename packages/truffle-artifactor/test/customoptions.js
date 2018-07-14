@@ -1,7 +1,7 @@
 var assert = require("chai").assert;
 var Artifactor = require("../");
 var temp = require("temp").track();
-var contract = require("truffle-contract");
+var contract = require("@shyftnetwork/shyft_truffle-contract");
 var path = require('path');
 var requireNoCache = require("require-nocache")(module);
 

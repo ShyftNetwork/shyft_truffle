@@ -1,5 +1,5 @@
 var ethJSABI = require("ethjs-abi");
-var BlockchainUtils = require("truffle-blockchain-utils");
+var BlockchainUtils = require("@shyftnetwork/shyft_truffle-blockchain-utils");
 var Web3 = require("web3");
 var StatusError = require("./statuserror.js")
 

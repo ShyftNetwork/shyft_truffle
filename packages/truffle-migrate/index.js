@@ -2,11 +2,11 @@ var fs = require("fs");
 var dir = require("node-dir");
 var path = require("path");
 var ResolverIntercept = require("./resolverintercept");
-var Require = require("truffle-require");
+var Require = require("@shyftnetwork/shyft_truffle-require");
 var async = require("async");
 var Web3 = require("web3");
-var expect = require("truffle-expect");
-var Deployer = require("truffle-deployer");
+var expect = require("@shyftnetwork/shyft_truffle-expect");
+var Deployer = require("@shyftnetwork/shyft_truffle-deployer");
 
 function Migration(file) {
   this.file = path.resolve(file);

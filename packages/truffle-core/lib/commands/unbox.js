@@ -5,7 +5,7 @@
  * - a string containing a repo under the `truffle-box` org
  */
 function normalizeURL(url) {
-  url = url || "https://github.com/trufflesuite/truffle-init-default";
+  url = url || "https://github.com/shyftnetwork/shyft_truffle-init-default";
 
   // full URL already
   if (url.indexOf("://") != -1 || url.indexOf("git@") != -1) {
@@ -52,8 +52,8 @@ var command = {
   description: 'Download a Truffle Box, a pre-built Truffle project',
   builder: {},
   run: function(options, done) {
-    var Config = require("truffle-config");
-    var Box = require("truffle-box");
+    var Config = require("@shyftnetwork/shyft_truffle-config");
+    var Box = require("@shyftnetwork/shyft_truffle-box");
     var OS = require("os");
 
     var config = Config.default().with({
