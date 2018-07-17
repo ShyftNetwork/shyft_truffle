@@ -1,6 +1,6 @@
 {
   "name": "@shyftnetwork/shyft_truffle-solidity-utils",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "Utilities for Solidity contracts",
   "main": "index.js",
   "scripts": {},
@@ -16,7 +16,9 @@
     "contracts"
   ],
   "author": "shyftnetwork",
-  "contributors": ["Tim Coulter <tim.coulter@consensys.net>"],
+  "contributors": [
+    "Tim Coulter <tim.coulter@consensys.net>"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/shyftnetwork/shyft_truffle-solidity-utils/issues"

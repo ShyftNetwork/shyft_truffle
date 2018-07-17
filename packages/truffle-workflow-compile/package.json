@@ -1,16 +1,16 @@
 {
   "name": "@shyftnetwork/shyft_truffle-workflow-compile",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Core workflow behavior for `truffle compile` command",
   "dependencies": {
+    "@shyftnetwork/shyft_truffle-artifactor": "^3.0.8",
+    "@shyftnetwork/shyft_truffle-compile": "^3.0.14",
+    "@shyftnetwork/shyft_truffle-config": "^1.0.8",
+    "@shyftnetwork/shyft_truffle-expect": "^0.0.5",
+    "@shyftnetwork/shyft_truffle-resolver": "^4.0.5",
     "async": "2.6.1",
     "lodash": "4.17.10",
-    "mkdirp": "^0.5.1",
-    "@shyftnetwork/shyft_truffle-artifactor": "^3.0.7",
-    "@shyftnetwork/shyft_truffle-compile": "^3.0.13",
-    "@shyftnetwork/shyft_truffle-config": "^1.0.6",
-    "@shyftnetwork/shyft_truffle-expect": "^0.0.4",
-    "@shyftnetwork/shyft_truffle-resolver": "^4.0.4"
+    "mkdirp": "^0.5.1"
   },
   "main": "index.js",
   "scripts": {},
@@ -19,7 +19,9 @@
     "url": "git+https://github.com/shyftnetwork/shyft_truffle-debug-utils.git"
   },
   "author": "shyftnetwork",
-  "contributors": ["Truffle Suite <inquiry@trufflesuite.com>"],
+  "contributors": [
+    "Truffle Suite <inquiry@trufflesuite.com>"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/shyftnetwork/shyft_truffle-workflow-compile/issues"

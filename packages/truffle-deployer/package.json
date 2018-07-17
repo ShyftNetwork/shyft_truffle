@@ -1,6 +1,6 @@
 {
   "name": "@shyftnetwork/shyft_truffle-deployer",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "description": "Light deployment module for easily deploying Ethereum contracts",
   "main": "index.js",
   "scripts": {
@@ -28,8 +28,8 @@
   },
   "homepage": "https://github.com/shyftnetwork/shyft_truffle-deployer#readme",
   "dependencies": {
-    "@shyftnetwork/shyft_truffle-contract": "^3.0.6",
-    "@shyftnetwork/shyft_truffle-expect": "^0.0.4"
+    "@shyftnetwork/shyft_truffle-contract": "^3.0.7",
+    "@shyftnetwork/shyft_truffle-expect": "^0.0.5"
   },
   "devDependencies": {
     "@shyftnetwork/shyft_ganache-cli": "^6.1.2",

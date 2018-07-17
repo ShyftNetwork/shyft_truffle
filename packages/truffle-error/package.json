@@ -1,6 +1,6 @@
 {
   "name": "@shyftnetwork/shyft_truffle-error",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Simple module that allows native Error objects to be extended",
   "main": "index.js",
   "scripts": {},
@@ -16,7 +16,9 @@
     "extendable"
   ],
   "author": "shyftnetwork",
-  "contributors": ["Tim Coulter <tim.coulter@consensys.net>"],
+  "contributors": [
+    "Tim Coulter <tim.coulter@consensys.net>"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/shyftnetwork/shyft_truffle-error/issues"

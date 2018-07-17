@@ -1,6 +1,6 @@
 {
   "name": "@shyftnetwork/shyft_truffle-provider",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Beefed up provider module for Truffle",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/shyftnetwork/shyft_truffle-provider#readme",
   "dependencies": {
-    "@shyftnetwork/shyft_truffle-error": "^0.0.3",
+    "@shyftnetwork/shyft_truffle-error": "^0.0.4",
     "web3": "0.20.6"
   },
   "devDependencies": {

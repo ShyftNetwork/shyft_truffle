@@ -1,6 +1,6 @@
 {
   "name": "@shyftnetwork/shyft_truffle-require",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Require and execute a Javascript module within a Truffle context",
   "main": "require.js",
   "scripts": {
@@ -30,9 +30,9 @@
     "mocha": "5.2.0"
   },
   "dependencies": {
+    "@shyftnetwork/shyft_truffle-config": "^1.0.8",
+    "@shyftnetwork/shyft_truffle-expect": "^0.0.5",
     "original-require": "1.0.1",
-    "@shyftnetwork/shyft_truffle-config": "^1.0.6",
-    "@shyftnetwork/shyft_truffle-expect": "^0.0.4",
     "web3": "0.20.6"
   },
   "publishConfig": {

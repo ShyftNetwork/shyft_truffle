@@ -1,6 +1,6 @@
 {
   "name": "@shyftnetwork/shyft_truffle-migrate",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "description": "On-chain migrations management",
   "main": "index.js",
   "scripts": {},
@@ -16,18 +16,20 @@
     "deployment"
   ],
   "author": "shyftnetwork",
-  "contributors": ["Tim Coulter <tim.coulter@consensys.net>"],
+  "contributors": [
+    "Tim Coulter <tim.coulter@consensys.net>"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/shyftnetwork/shyft_truffle-migrate/issues"
   },
   "homepage": "https://github.com/shyftnetwork/shyft_truffle-migrate#readme",
   "dependencies": {
+    "@shyftnetwork/shyft_truffle-deployer": "^2.0.8",
+    "@shyftnetwork/shyft_truffle-expect": "^0.0.5",
+    "@shyftnetwork/shyft_truffle-require": "^1.0.8",
     "async": "2.6.1",
     "node-dir": "0.1.17",
-    "@shyftnetwork/shyft_truffle-deployer": "^2.0.7",
-    "@shyftnetwork/shyft_truffle-expect": "^0.0.4",
-    "@shyftnetwork/shyft_truffle-require": "^1.0.7",
     "web3": "0.20.6"
   },
   "devDependencies": {

@@ -1,6 +1,6 @@
 {
   "name": "@shyftnetwork/shyft_truffle-expect",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Simple module for ensuring specific options are passed to a function",
   "main": "index.js",
   "scripts": {},
@@ -15,7 +15,9 @@
     "expect"
   ],
   "author": "shyftnetwork",
-  "contributors": ["Tim Coulter <tim.coulter@consensys.net>"],
+  "contributors": [
+    "Tim Coulter <tim.coulter@consensys.net>"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/shyftnetwork/shyft_truffle-expect/issues"

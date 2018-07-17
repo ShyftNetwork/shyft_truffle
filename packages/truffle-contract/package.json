@@ -1,6 +1,6 @@
 {
   "name": "@shyftnetwork/shyft_truffle-contract",
-  "version": "3.0.6",
+  "version": "3.0.7",
   "description": "A better contract abstraction for Ethereum (formerly EtherPudding)",
   "main": "index.js",
   "scripts": {
@@ -29,22 +29,22 @@
   },
   "homepage": "https://github.com/shyftnetwork/shyft_truffle-contract#readme",
   "dependencies": {
+    "@shyftnetwork/shyft_truffle-blockchain-utils": "^0.0.6",
+    "@shyftnetwork/shyft_truffle-contract-schema": "^2.0.2",
+    "@shyftnetwork/shyft_truffle-error": "^0.0.4",
     "ethjs-abi": "0.1.8",
-    "@shyftnetwork/shyft_truffle-blockchain-utils": "^0.0.5",
-    "@shyftnetwork/shyft_truffle-contract-schema": "^2.0.1",
-    "@shyftnetwork/shyft_truffle-error": "^0.0.3",
     "web3": "0.20.6"
   },
   "devDependencies": {
+    "@shyftnetwork/shyft_ganache-core": "^2.1.1",
+    "@shyftnetwork/shyft_solc": "~0.4.24",
     "async": "2.6.1",
     "browserify": "^14.0.0",
     "chai": "4.1.2",
     "debug": "^3.1.0",
-    "@shyftnetwork/shyft_ganache-core": "^2.1.1",
     "lodash": "4.17.10",
     "mocha": "5.2.0",
     "require-nocache": "^1.0.0",
-    "@shyftnetwork/shyft_solc": "0.4.24",
     "temp": "^0.8.3",
     "uglify": "^0.1.5",
     "uglify-js": "^2.7.5"

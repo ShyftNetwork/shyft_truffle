@@ -1,6 +1,6 @@
 {
   "name": "@shyftnetwork/shyft_truffle-box",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Truffle project boilerplate utility",
   "main": "box.js",
   "scripts": {
@@ -20,9 +20,9 @@
   ],
   "license": "MIT",
   "devDependencies": {
+    "@shyftnetwork/shyft_truffle-config": "^1.0.8",
     "eslint": "^4.0.0",
-    "mocha": "5.2.0",
-    "@shyftnetwork/shyft_truffle-config": "^1.0.6"
+    "mocha": "5.2.0"
   },
   "dependencies": {
     "fs-extra": "6.0.1",

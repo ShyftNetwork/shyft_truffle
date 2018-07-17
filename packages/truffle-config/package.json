@@ -1,6 +1,6 @@
 {
   "name": "@shyftnetwork/shyft_truffle-config",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Utility for interacting with truffle.js files",
   "main": "index.js",
   "scripts": {},
@@ -24,11 +24,11 @@
   },
   "homepage": "https://github.com/shyftnetwork/shyft_truffle-config#readme",
   "dependencies": {
+    "@shyftnetwork/shyft_truffle-error": "^0.0.4",
+    "@shyftnetwork/shyft_truffle-provider": "^0.0.6",
     "find-up": "^2.1.0",
     "lodash": "4.17.10",
-    "original-require": "1.0.1",
-    "@shyftnetwork/shyft_truffle-error": "^0.0.3",
-    "@shyftnetwork/shyft_truffle-provider": "^0.0.6"
+    "original-require": "1.0.1"
   },
   "publishConfig": {
     "access": "public"
