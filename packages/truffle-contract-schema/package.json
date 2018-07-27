@@ -1,6 +1,6 @@
 {
   "name": "@shyftnetwork/shyft_truffle-contract-schema",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "JSON schema for contract artifacts",
   "main": "index.js",
   "scripts": {
@@ -33,7 +33,7 @@
     "debug": "^3.1.0"
   },
   "devDependencies": {
-    "@shyftnetwork/shyft_solc": "~0.4.24",
+    "@shyftnetwork/shyft_solc": "^0.4.24",
     "mocha": "5.2.0"
   }
 }

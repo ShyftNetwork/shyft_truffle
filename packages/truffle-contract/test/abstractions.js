@@ -31,7 +31,7 @@ describe("Abstractions", function() {
     } else {
       contractName = ":Example";
     }
-
+  console.log(result)
     contractObj = result.contracts[contractName];
     contractObj.contractName = contractName;
     Example = contract(contractObj);

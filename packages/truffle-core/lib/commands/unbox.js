@@ -5,7 +5,7 @@
  * - a string containing a repo under the `truffle-box` org
  */
 function normalizeURL(url) {
-  url = url || "https://github.com/shyftnetwork/shyft_truffle-init-default";
+  url = url || "https://github.com/trufflesuite/truffle-init-default";
 
   // full URL already
   if (url.indexOf("://") != -1 || url.indexOf("git@") != -1) {

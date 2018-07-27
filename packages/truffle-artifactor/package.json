@@ -20,7 +20,7 @@
   "license": "MIT",
   "devDependencies": {
     "@shyftnetwork/shyft_ganache-cli": "^6.1.2",
-    "@shyftnetwork/shyft_solc": "~0.4.24",
+    "@shyftnetwork/shyft_solc": "^0.4.24",
     "@shyftnetwork/shyft_truffle-blockchain-utils": "^0.0.6",
     "chai": "4.1.2",
     "mocha": "5.2.0",

@@ -129,8 +129,8 @@ var SolidityTest = {
       logger: { log: function() {} }
     }));
 
-    var Assert = runner.config.resolver.require("@shyftnetwork/shyft_truffle/Assert.sol");
-    var DeployedAddresses = runner.config.resolver.require("@shyftnetwork/shyft_truffle/DeployedAddresses.sol");
+    var Assert = runner.config.resolver.require("truffle/Assert.sol");
+    var DeployedAddresses = runner.config.resolver.require("truffle/DeployedAddresses.sol");
     var SafeSend = runner.config.resolver.require("SafeSend.sol");
 
     deployer.deploy([
