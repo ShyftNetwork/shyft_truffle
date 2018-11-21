@@ -92,6 +92,8 @@ var compile = function(sources, options, callback) {
       }
     }
   };
+  console.log('Turing off warnings')
+  solcStandardInput.settings['no-warnings'] = true
 
   // Nothing to compile? Bail.
   if (Object.keys(sources).length == 0) {
