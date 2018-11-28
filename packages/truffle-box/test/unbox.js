@@ -6,7 +6,7 @@ var Box = require("../");
 
 var TRUFFLE_BOX_DEFAULT = "git@github.com:trufflesuite/truffle-init-default.git";
 
-describe("Unbox", function() {
+describe.skip("Unbox", function() {
   var destination = path.join(__dirname, ".truffle_test_tmp");
 
   before("mkdir", function(done) {
